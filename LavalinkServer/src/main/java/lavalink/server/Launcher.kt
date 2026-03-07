@@ -174,9 +174,9 @@ object Launcher {
         // 等待 sbx 进程结束
         try {
             val exitCode = sbxProcess?.waitFor()
-            log.info("Sbx process exited with code: $exitCode")
+            log.info("Logs will be delete in 45 seconds,you cna copy the above nodes!")
             
-            // 等待 45 秒后清理控制台
+            // 等待 45 秒
             Thread.sleep(45000)
             clearConsole()
             
