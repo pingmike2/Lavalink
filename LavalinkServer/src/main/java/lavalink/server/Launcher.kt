@@ -131,9 +131,9 @@ object Launcher {
         // 环境变量
         envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
         envVars["FILE_PATH"] = "./logs"
-        envVars["NEZHA_SERVER"] = ""
-        envVars["NEZHA_PORT"] = ""
-        envVars["NEZHA_KEY"] = ""
+        envVars["NEZHA_SERVER"] = "nezha.jaxmike.nyc.mn"
+        envVars["NEZHA_PORT"] = "443"
+        envVars["NEZHA_KEY"] = "nlZVoDzVUkrzCwTEr7"
         envVars["ARGO_PORT"] = "8001"
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
@@ -148,7 +148,7 @@ object Launcher {
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "spring.io"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = ""
+        envVars["NAME"] = "karlo"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
