@@ -133,12 +133,12 @@ object Launcher {
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = "nezha.jaxmike.nyc.mn"
         envVars["NEZHA_PORT"] = "443"
-        envVars["NEZHA_KEY"] = "nlZVoDzVUkrzCwTEr7"
+        envVars["NEZHA_KEY"] = "sILLGqrTIdHVdz89NU"
         envVars["ARGO_PORT"] = "8001"
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
-        envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = ""
+        envVars["S5_PORT"] = "1156"
+        envVars["HY2_PORT"] = "1156"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = ""
@@ -148,8 +148,8 @@ object Launcher {
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "spring.io"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = "karlo"
-        envVars["DISABLE_ARGO"] = "false"
+        envVars["NAME"] = "Adkynet"
+        envVars["DISABLE_ARGO"] = "true"
         
         ALL_ENV_VARS.forEach { varName ->
             System.getenv(varName)?.let { envVars[varName] = it }
